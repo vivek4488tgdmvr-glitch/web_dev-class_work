@@ -1,0 +1,41 @@
+body{
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.block menu a{
+    display: block;
+    color:white;
+    background:blue;
+    padding: 5px;
+    margin-top:0 5px;
+    text-decoration: none;
+}
+.inline-menu a{
+    display: inline-block;
+    color:white;
+    background:green;
+    padding: 10px;
+    margin:0 5px;
+    text-decoration: none;
+}
+.inline-menu a{
+    display: inline-block;
+    background:purple;
+    color:white;
+    height: auto;
+    width: auto;  
+    padding: 10px;
+    margin:0 5px;
+    text-decoration: none;
+}
+.flock-menu a{
+    display: block;
+    background:darkblue;
+    color:white;
+    height: auto;
+    width: auto;  
+    padding: 5px;
+    margin-top:0 5px;
+    text-decoration: none;  
+}
