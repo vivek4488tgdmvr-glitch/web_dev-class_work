@@ -1,0 +1,53 @@
+body{  
+    font-family: Arial, sans-serif;  
+    margin: 20px;  
+    background:whitesmoke;  
+    }  
+     h2{ 
+        text-align: center; 
+    }  
+    .container{  
+          border:2px solid black;
+          padding:40px;
+          margin:20px;
+          
+          display:flex;  
+          background-color: lightpink;                 
+          flex-direction: row;             
+          justify-content: center;          
+          align-items: center;             
+          gap: 40px;                        
+          flex-wrap: wrap;                  
+        }  
+    .card{  
+          background: #fff;  
+          border-radius: 10px;  
+          box-shadow: 0 4px 8px rgba(0,0,0,0.5);  
+          width: 220px;  
+          text-align: center;  
+          padding: 20px;  
+          border:2px solid blue;
+        }  
+         
+    .circle{  
+          width: 70px;  
+          height: 70px;  
+          background: blue;  
+          color: white;  
+          border-radius: 50%;  
+          font-size:20px;
+          display: flex;  
+          justify-content: center;  
+          align-items: center;  
+         font-weight:bold; 
+          margin: 0 auto 15px;  
+          
+        }  
+    .name{  
+        font-weight: bold;  
+        font-size: 18px;  
+    }  
+    .detail{ font-size: 14px;  
+            color: #555;  
+            margin: 2px 0;  
+        }
